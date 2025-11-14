@@ -113,11 +113,10 @@ void setup() {
   legFR.attachServos();
   legRR.attachServos();
   legRL.attachServos();
-
 }
 
 void loop() {
-
+  
   float x = 50; //random numbers to unit test a leg, will eventually have a read serial in for forward gate or left/right gate
   float y = 0;
   float z = -90;
